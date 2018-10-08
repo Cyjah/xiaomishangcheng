@@ -1,0 +1,144 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+body{
+	background-color: #1d54d6;
+}
+input,button{
+	outline: none;
+}
+.header{
+	width: 100%;
+}
+.left_Top{
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: white;
+	margin-left: 30px;
+	margin-top: 15px;
+	float: left;
+	position: relative;
+}
+.left{
+	width: 140px;
+	height: 50px;
+	background: #1d54d6 url(../img/小米云服务页面/下载.png) 0 -3px no-repeat;
+	background-size: 50px;
+	padding-left: 60px;
+}
+.section{
+	width: 100%;
+	height: 550px;
+	position: relative;
+}
+.section_left{
+	position: absolute;
+	width: 627.2px;
+	height: 259.6px;
+	left: 95px;
+	top: 200px;
+}
+.section_right{
+	position: absolute;
+    right: 30px;
+    top: 100px;
+}
+.bigTitle{
+	width: 320px;
+	height: 57.6px;
+	margin: 0px auto;
+	font-size: 58px;
+	color: white;
+}
+.smallTitle{
+	width: 320px;
+	height: 24px;
+	margin: 30px auto 52px;
+	font-size: 20px;
+	color: #d2ddf6;
+}
+.login{
+	display: inline-block;
+	width: 320px;
+	height: 56px;
+	background: white;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	color: #1851d7;
+	line-height: 56px;
+	margin-left: 153px;
+	cursor: pointer;
+}
+.mi{
+	margin-bottom: -6px;
+}
+#loginTxt{
+	line-height: 58px;
+}
+#loginTxt:hover{
+	color: dodgerblue;
+}
+#line{
+	display: inline-block;
+	height: 20px;
+	border: 1px solid #fff;
+	margin: 30px 20px -5px 20px;
+	background-color: white;
+}
+.right{
+	position: absolute;
+	right: 30px;
+	color: white;
+}
+.txt{
+	cursor: pointer;
+	transition: all 1s;
+}
+.txt:hover{
+	color: dodgerblue;
+}
+
+.footer{
+	width: 100%;
+}
+.earth{
+	margin-bottom: -8px;
+}
+.one{
+	width: 100%;
+	height: 38.4px;
+	text-align: center;
+	color: white;
+	margin-top: 90px;
+	font-size: 12px;
+}
+a{
+	color: white;
+}
+.eng:hover,.more:hover{
+	text-decoration: none;
+}
+.footerTxt{
+	width: 704px;
+	height: 77px;
+	margin: 10px auto 0px;
+	text-align: center;
+	line-height: 30px;
+}
+#simple,.txt{
+	text-decoration: none;
+	font-size: 12px;
+	color: gainsboro;
+}
+#txttwo{
+	color: gainsboro;
+	font-size: 12px;
+}
+#sline{
+	color: white;
+}

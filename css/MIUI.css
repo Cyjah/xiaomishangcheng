@@ -1,0 +1,152 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.out{
+	width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.clearboth{
+	zoom: 1;
+}
+.clearboth::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#head a{
+	text-decoration: none;
+	color: white;
+}
+.header{
+	width: 100%;
+	height: 61px;
+	background: #000;
+}
+h1{
+	float: left;
+	width: 46px;
+	height: 17px;
+	margin-left: 175px;
+	padding-top: 6px;
+}
+#head{
+	color: white;
+}
+#head li{
+	float: right;
+	margin-left: 45px;
+	margin-top: 20px;
+}
+.current{
+	color: gainsboro;
+}
+#head li:nth-of-type(1){
+	margin-right: 173px;
+}
+.content-body-on{
+	width: 100%;
+	height: 168.8px;
+	border-bottom: 1px solid #E1E1E1;
+}
+.content-body{
+	padding: 55px 0px;
+	width: 1240px;
+    margin: 0 auto;
+    font-family: "FZLTXHJW";
+}
+.banners li{
+	float: left;
+	width: 33.33%;
+	text-align: left;
+	font-family: "FZLTXHJW";
+}
+.banner-li a{
+	display: block;
+    text-align: center;
+    border-right: 1px solid #E1E1E1;
+    font-family: "FZLTXHJW";
+    text-decoration: none;
+    color: #000000;
+}
+.banner-li .last-li{
+	border-right: 1px solid rgba(0,0,0,0);
+}
+.banner-li a img{
+	margin-right: 24px;
+}
+.banner-li a div{
+	display: inline-block;
+    cursor: pointer;
+    zoom: 1;
+    font-family: "FZLTXHJW";
+}
+.banner-li-title{
+	font-weight: normal;
+	font-size: 20px;
+    color: #333333;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+}
+.banner-li-content{
+	font-size: 14px;
+    color: #939393;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+}
+.one{
+	color: orange;
+}
+.footer{
+	padding-top: 60px;
+}
+.foot{
+	width: 700px;
+	margin: 0px auto;
+}
+.foot>li{
+	float: left;
+	font-size: 14px;
+}
+.foot a{
+	text-decoration: none;
+	color: gray;
+}
+.foot a:hover{
+	text-decoration: underline;
+	color: orangered;
+}
+.line{
+	color: gray;
+}
+#code{
+	position: absolute;
+	top: 80%;
+	left: 33%;
+	display: none;
+}
+.foot li:nth-of-type(7){
+	position: relative;
+}
+.language{
+	width: 100px;
+	position: absolute;
+	bottom: 0px;
+	border: 1px solid gainsboro;
+	display: none;
+	background: white;
+}
+p{
+	text-align: center;
+	font-size: 14px;
+	color: gray;
+}
+p.last{
+	font-size: 10px;
+	margin-top: 5px;
+}
+

@@ -1,0 +1,187 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+input{
+	outline: none;
+}
+.out{
+	width: 854px;
+	margin-left: auto;
+    margin-right: auto;
+}
+body{
+	background: #f9f9f9;
+}
+/*注册框部分*/
+.section{
+	width: 854px;
+	height: 548px;
+	margin: 60px auto 70px;
+	background-color: white;
+}
+#logo{
+	display: block;
+	width: 49px;
+	height: 48px;
+	margin: 0px auto 25px;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	font-weight: 400;
+	margin: 20px;
+}
+.first{
+	display: block;
+	width: 332px;
+	height: 25px;
+}
+.country{
+	width: 299px;
+	height: 42px;
+	border: 1px solid grey;
+}
+.scountry{
+	cursor: pointer;
+	width: 42px;
+	height: 42px;
+	border: 1px solid grey;
+	float: right;
+	position: relative;
+}
+.inner-scountry{
+	display: block;
+	position: absolute;
+	width: 29px;
+	height: 30px;
+	background: url(../img/注册页面/icon_user.png) 0 0 no-repeat;
+	background-position: 13px 13px;
+}
+#pn{
+	width: 74px;
+	height: 44px;
+	margin-right: -5px;
+	cursor: pointer;
+}
+#number{
+	width: 271px;
+	height: 44px;
+	outline: none;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.infor{
+	width: 345px;
+	height: 258.8px;
+	margin: 0px auto;
+}
+.inforbottom{
+	vertical-align: center;
+	font-weight: normal;
+	text-align: center;
+	color: grey;
+	margin-top: 100px;
+}
+b{
+	color: black;
+}
+.tip{
+	display: block;
+	width: 332px;
+	height: 20px;
+	margin-top: 10px;
+}
+.phonenumber{
+	display: block;
+	width: 332px;
+	height: 25px;
+	margin-top: 20px;
+}
+.icon{
+	margin: 0px 0px -4px 0px;
+}
+.first,.tip,.phonenumber{
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+}
+.reg{
+	width: inherit;
+	height: 42px;
+	border: none;
+	background-color: #ff6700;
+	color: white;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.reg:hover{
+	opacity: 0.7;
+}
+/*底部*/
+.footer{
+	width: 100%;
+	height: 80px;
+}
+.footerTxt{
+	width: 704px;
+	height: 77px;
+	margin: 80px auto 10px;
+}
+#txtone,#txttwo{
+	line-height: 40px;
+}
+#txtone{
+	text-align: center;
+}
+.txt{
+	color: grey;
+}
+#simple{
+	color: black;
+}
+.txt:hover{
+	color: black;
+}
+#txttwo{
+	text-align: center;
+	color: grey;
+}
+#country{
+	position: relative;
+}
+.select{
+	width: 343px;
+	position: absolute;
+	top: 43px;
+	left: 0px;
+	border: 1px solid grey;
+	background: white;
+	display: none;
+}
+.select-hide{
+	display: block;
+}
+.select .dis{
+	display: block;
+}
+.select>p{
+	padding: 5px; 	
+	cursor: pointer;
+}
+.select>p:nth-of-type(1){
+	text-align: center;
+}
+.select>p:nth-of-type(2){
+	background: pink;
+	font-family: "微软雅黑";
+	color: orangered;
+}
+.input-country{
+	width: 300px;
+	height: 32px;
+	outline: none;
+}
+

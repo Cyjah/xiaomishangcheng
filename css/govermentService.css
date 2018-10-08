@@ -1,0 +1,503 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+/*固定版心*/
+.out-out{
+	width: 1246px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav{
+	width: 100%;
+	height: 40px;
+	background: #333;
+	
+}
+/*清样式*/
+.clearboth{
+	zoom: 1;
+}
+.clearboth::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.head-nav{
+	padding: 8px 0px;
+	box-sizing: border-box;
+}
+.head-nav li{
+	float: left;
+	margin-right: 10px;
+}
+.head-nav li:nth-of-type(7){
+	margin-right: 0px;
+}
+.head-nav li a{
+	padding-right: 10px;
+	color: #b0b0b0;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700;
+	border-right: 1.2px solid dimgray;
+}
+.head-nav li a:hover{
+	color: white;
+}
+.title{
+	width: 1246px;
+	height: 86.4px;
+	background: white;
+	padding: 18px 0px;
+	position: relative;
+	box-sizing: border-box;
+}
+.title-nav-hide ul li{
+	float: left;
+	margin: 25px;
+	cursor: pointer;
+}
+.title-nav-hide ul{
+	width: 358px;
+	height: 70.8px;
+	background: rgba(96,96,96,0.3);
+	color: white;
+}
+.title-nav-hide{
+	position: absolute;
+	top: 87px;
+	right: 300px;
+	z-index: 2;
+	display: none;
+}
+h3{
+	width: 250px;
+	height: 40px;
+	font-size: 32px;
+	color: #363231;
+	font-weight: normal;
+}
+#mi-logo img{
+	margin-bottom: -13px;
+	margin-right: 10px;
+}
+.title-nav li{
+	float: left;
+	margin-right: 57px;
+}
+.title-nav li:nth-of-type(4){
+	margin-right: 0px;
+}
+.title-nav li a{
+	text-decoration: none;
+	color: #5e5e5e;
+	font-size: 14px;
+}
+.title-nav li a:hover{
+	color: orangered;
+}
+.title-nav li:nth-of-type(4){
+	margin-right: 0px;
+}
+.title-nav{
+	float: right;
+	margin-top: -25px;
+}
+.lunbo{
+	width: 400%;
+	height: 500px;
+	position: relative;
+}
+.out{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.screen1,.screen2,.screen3{
+	width: 25%;
+	height: 500px;
+	float: left;
+}
+.lunbo .screen1{
+	background: url(../img/小米政企服务页面/banner-index.7a3068e.png) no-repeat;
+    background-position: center;
+    background-size: auto 500px;
+}
+.lunbo .screen2{
+	background: url(../img/小米政企服务页面/bg2.png) no-repeat;
+	background-position: center;
+	background-size: auto 500px;
+}
+.lunbo .screen3{
+	background: url(../img/小米政企服务页面/banner-cooperator.a0586f9.png) no-repeat;
+    background-position: center;
+    background-size: auto 500px;
+}
+.screen-inner{
+	width: 1246px;
+	height: 212px;
+	margin: 150px auto;
+	text-align: left;
+	position: relative;
+}
+.screen-inner>img{
+	margin-left: 88px;
+}
+.banner-link{
+	margin-left: 88px;
+	font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.banner-link:hover{
+	background: white;
+	color: orangered;
+}
+.lunbo-bottom{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -70.5px;
+}
+.lunbo-bottom li{
+	display: inline-block;
+	width: 35px;
+	height: 6px;
+	border: 1px solid gray;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.current{
+	background: grey;
+	opacity: 0.5;
+}
+.middle{
+	width: 1246px;
+    margin: 0 auto;
+    padding-top: 63px;
+}
+.middle-top{
+	text-align: center;
+	color: #2c3e50;
+}
+.middle-top1{
+	margin: 0 auto;
+    width: 390px;
+    height: 42px;
+    font-size: 30px;
+    color: #5e5e5e;
+    line-height: 42px;
+}
+.middle-top2{
+	margin: 0 auto;
+    margin-top: 10px;
+    width: 379px;
+    height: 25px;
+    font-size: 18px;
+    color: #a1a1a1;
+    line-height: 25px;
+}
+.top2-two{
+	width: 430px;
+}
+.top2-three{
+	width: 440px;
+}
+.middle-bottom{
+	margin-top: 57px;
+}
+.middle-bottom-box::before{
+	position: absolute;
+    top: 0;
+    left: -1px;
+    content: "";
+    height: 2px;
+    width: 370px;
+    background: linear-gradient(90deg,#ff7107,#fbc44f);
+}
+.middle-bottom-box{
+	float: left;
+	cursor: pointer;
+    /*box-shadow: 0 10px 20px #ddd;*/
+    
+    transition: all .3s linear;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 38px;
+    padding-bottom: 28px;
+    text-align: center;
+    width: 370px;
+    height: 365px;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    margin-right: 60px;
+}
+.box-current{
+	box-shadow: 0 10px 20px #ddd;
+	transform: translate3d(0,-5px,0);
+}
+.middle-bottom-box:nth-of-type(3){
+	margin-right: 0px;
+}
+.middle-bottom-p1{
+	margin-top: 33px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    color: #5e5e5e;
+}
+.middle-bottom-p2{
+	width: 220px;
+    height: 36px;
+    font-size: 13px;
+    color: #a1a1a1;
+    line-height: 18px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+.look{
+	display: inline-block;
+    text-decoration: none;
+    color: #fe6f3d;
+    font-size: 14px;
+    vertical-align: middle;
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #fe6f3d;
+    transition: all 0.5s;
+}
+.look:hover{
+	color: white;
+	background: #fe6f3d;
+}
+.carousel-container{
+	height: 312px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.carousel-container-box{
+	height: 312px;
+    position: absolute;
+}
+.item-carousel{
+	width: 208px;
+	height: 312px;
+	float: left;
+	filter: grayscale(90%);
+	transition: width 0.2s linear; 
+}
+.active{
+	width: 414px;
+	height: 312px;
+	filter: grayscale(0%);
+}
+.carousel-container-box .item-carousel:nth-of-type(1){
+	background-image: url(../img/小米政企服务页面/jrbgB-min.ef45825.png);
+}
+.carousel-container-box .item-carousel:nth-of-type(2){
+	background-image: url(../img/小米政企服务页面/jybgB-min.b0f6464.png);
+}
+.carousel-container-box .item-carousel:nth-of-type(3){
+	background-image: url(../img/小米政企服务页面/xsbgB-min.c69a80e.png);
+}
+.carousel-container-box .item-carousel:nth-of-type(4){
+	background-image: url(../img/小米政企服务页面/jyingB-min.b31a7ba.png)
+}
+.carousel-container-box .item-carousel:nth-of-type(5){
+	background-image: url(../img/小米政企服务页面/jwbgB-min.57b070d.png);
+}
+.middle-bottom-container{
+	padding-top: 60px;
+}
+.shop-box{
+	background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    padding-top: 16px;
+    text-align: center;
+    width: 238px;
+    height: 104px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    float: left;
+}
+.shop-img{
+	width: 127px;
+    height: 36px;
+}
+.img-one{
+	width: 192px;
+	height: 24px;
+}
+.img-two{
+	width: 144px;
+	height: 24px;
+}
+.shop-img-container{
+	height: 68px;
+	text-align: center;
+}
+.renren{
+	width: 120.56px;
+	height: 60px;
+	margin-bottom: -12px;
+}
+.renren-box{
+	padding-top: 5px;
+}
+.shop-content{
+	margin-top: 13px;
+    font-size: 13px;
+    color: #a1a1a1;
+}
+.special{
+	margin-top: -16px;
+}
+.top1-one{
+	width: 800px;
+}
+.top2-four{
+	width: 600px;
+}
+.com-bottom{
+	margin-top: 80px;
+    margin-bottom: 52px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.com-img-container{
+	width: 240px;
+    height: 85px;
+    background-color: #fafafa;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #efefef;
+    font-size: 20px;
+}
+.com-img{
+	height: 49px;
+}
+.com-bottom-two{
+	margin-top: 17px;
+	margin-bottom: 52px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.com{
+	padding-bottom: 80px;
+}
+.com-a{
+	display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #a1a1a1;
+    text-decoration: none;
+}
+.com-a:hover{
+	color: orangered;
+}
+.com-p{
+	text-align: center;
+}
+.footer-top{
+	margin: 0 auto;
+    height: 220px;
+    text-align: center;
+    background-image: url(../img/小米政企服务页面/banner-index-bottom.189d935.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.footer-top-top{
+	padding-top: 50px;
+    padding-bottom: 39px;
+    font-size: 24px;
+    color: #fff;
+}
+.footer-top-bottom{
+	display: inline-block;
+    text-decoration: none;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.5s;
+}
+.footer-top-bottom:hover{
+	color: orangered;
+	background: white;
+}
+.footer{
+	display: flex;
+    height: 450px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #35373f;
+}
+.footer-item-container{
+	display: flex;
+    width: 1246px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.footer-item{
+	display: flex;
+    flex-direction: column;
+}
+.footer-item-title{
+	font-size: 16px;
+    font-family: PingFangSC-Regular;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-item-text{
+	font-size: 14px;
+    font-family: PingFangSC-Regular;
+    color: #8e8e8e;
+    margin-bottom: 12px;
+}
+.footer-text{
+	font-size: 16px;
+    font-family: STKaiti;
+    color: #8e8e8e;
+    margin-top: 60px;
+}
+.footer-icp{
+	font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: #8e8e8e;
+    margin-top: 60px;
+}
+.footer-container{
+	text-align: center;
+}

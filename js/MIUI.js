@@ -1,0 +1,25 @@
+$('#head>li').mouseenter(function(){
+	$(this).children('a').css('color','gainsboro')
+});
+$('#head>li').mouseleave(function(){
+	$(this).children('a').css('color','white')
+});
+$('.foot>li:nth-of-type(2)').mouseenter(function(){
+	$('#code').show();
+});
+$('.foot>li:nth-of-type(2)').mouseleave(function(){
+	$('#code').hide();
+});
+$('.foot>li:nth-of-type(7)').mouseenter(function(){
+	$('.language').show();
+	$(this).children('a').hide();
+});
+$('.foot>li:nth-of-type(7)').mouseleave(function(){
+	$('.language').hide();
+	$(this).children('a').show();
+});
+$('.banner-li-dec').hover(function(){
+	$(this).children().addClass('one');
+},function(){
+	$(this).children().removeClass('one');
+});

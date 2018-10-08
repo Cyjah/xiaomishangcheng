@@ -1,0 +1,82 @@
+// 顶部分类导航
+var show_fenleicontent_index=0;
+$(".have_content").mouseenter(function(){
+    $(".show_fenleicontent").stop().slideDown(200);
+    $(".show_fenleicontent").css('z-index','3');
+});
+$(".have_content").mouseenter(function(){
+    show_fenleicontent_index=$(this).index()-1;
+    console.log(show_fenleicontent_index)
+    $(".show_fenleicontent").stop().slideDown(200);
+    $(".show_fenleicontent>ul").eq(show_fenleicontent_index).siblings().stop().hide();
+    $(".show_fenleicontent>ul").eq(show_fenleicontent_index).stop().show();
+});
+$(".have_content").mouseleave(function(){
+    $(".show_fenleicontent").stop().slideUp(200);
+});
+$(".show_fenleicontent").mouseenter(function(){
+    $(this).stop().show();
+});
+$(".show_fenleicontent").mouseleave(function(){
+    $(this).stop().slideUp(200);
+});
+//鼠标滑入滑出全部商品分类
+$(".top_nav_one>ul>li").eq(0).hover(function(){
+    $(".classify").show();
+    $(".classify_nav").show();
+},function(){
+    $(".classify_nav").hide();
+});
+$(".classify_nav").hover(function(){
+    $(this).show();
+},function(){
+    $(this).hide();
+});
+//侧边分类导航
+$(".classify_nav li").mouseenter(function(){
+    $(".classify_nav_each").eq($(this).index()).siblings().hide();
+    $(".classify_nav_each").eq($(this).index()).show();
+    $(".classify_nav_content").show();
+});
+$(".classify_nav li").mouseleave(function(){
+    $(".classify_nav_content").hide();
+});
+$(".classify").hover(function(){
+    $(this).show();
+},function(){
+    $(this).hide();
+});
+$(".classify_nav_content").mouseenter(function(){
+    $(".classify_nav").show();
+    $(this).show();
+});
+$(".classify_nav_content").mouseleave(function(){
+    $(this).hide();
+});
+//轮播图
+var timer;
+var imgIndex=0;
+function autoplayImages(){
+    clearInterval(timer);
+    timer=setInterval(function(){
+        imgIndex++;
+        if(imgIndex>1){
+            imgIndex=0;
+        }
+        $(".autoplay_img>ul").animate({"left":-1226*imgIndex+"px"});
+        $(".autoplay_img>ol>li").eq(imgIndex).siblings().removeClass();
+        $(".autoplay_img>ol>li").eq(imgIndex).addClass("current_circle");
+    },3000);
+};
+autoplayImages();
+$(".autoplay_img").mouseenter(function(){
+        clearInterval(timer);
+});
+$(".autoplay_img").mouseleave(function(){
+        autoplayImages();
+});
+$(".autoplay_img>ol>li").click(function(){
+        imgIndex=$(this).index();
+        $(this).addClass("current_circle").siblings().removeClass();
+        $(".autoplay_img>ul").animate({"left":-1226*imgIndex+"px"});
+});

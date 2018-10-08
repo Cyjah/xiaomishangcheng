@@ -1,0 +1,519 @@
+/*固定版心*/
+.out{
+	width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*清浮动*/
+.clearboth{
+	zoom: 1;
+}
+.clearboth::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.header{
+	width: 100%;
+	height: 100px;
+    background-color: rgb(26, 28, 47);
+    color: rgb(173, 173, 173);
+    font-size: 15px;
+}
+.header-container{
+	width: 100%;
+	height: 100px;
+	align-items: stretch;
+    display: flex;
+}
+.header-left{
+	width: 668.75px;
+	height: 100px;
+	flex-grow: 2;
+	align-items: stretch;
+    display: flex;
+    flex-basis: 0px;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    white-space: nowrap;
+    overflow: auto hidden;
+}
+.header-left a{
+	width: 187px;
+	height: 100px;
+	color: rgb(173, 173, 173);
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo-container{
+	display: inline-block;
+    width: 187px;
+    height: 51px;
+    background: url(../img/小米IoT开发者平台/logo.4168335.png) 0% 0% / 187px 51px;
+}
+.nav-right{
+	height: 100px;
+    line-height: 100px;
+    color: rgb(173, 173, 173);
+    background-color: inherit;
+    margin: 0px;
+    align-items: stretch;
+    display: flex;
+    flex-basis: 0px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-end;
+}
+.nav-item{
+	align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    padding: 10px;
+}
+.nav-item a{
+	color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+}
+.has-point a{
+	color: inherit;
+	font-weight: normal;
+}
+.controlbar{
+	margin-left: 45px;
+    height: 100px;
+    flex-basis: auto;
+    flex-grow: 0;
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-end;
+}
+.unverifed{
+	display: inline-block;
+	color: rgb(173, 173, 173);
+	height: 28px;
+}
+.has-point{
+	margin-left: 45px;
+}
+.unverifed a{
+	text-decoration: none;
+	margin-top: 35px;
+}
+.button-login{
+	height: 28px;
+    color: inherit;
+    background-color: inherit;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 0px !important;
+}
+.split-line{
+	display: inline-block;
+    width: 45px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+.button-regist{
+	height: 28px;
+    color: inherit;
+    background-color: inherit;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 0px !important;
+}
+.button{
+	-webkit-appearance: none;
+    align-items: center;
+    display: inline-flex;
+    line-height: 24px;
+    position: relative;
+    vertical-align: top;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+}
+.nightCover{
+	width: 100%;
+	background-color: rgb(25, 27, 29) !important;
+}
+.banner{
+	position: relative;
+    left: 50%;
+    margin-left: -610px;
+    max-width: 1220px;
+}
+.text-container{
+	width: 1220px;
+    height: 528px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    margin-left: -610px;
+}
+.text4Figure{
+	position: relative;
+    top: 50%;
+    margin-top: -77.7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.text4Figure .title{
+	font-size: 29px;
+    color: rgb(71, 177, 128);
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    line-height: 1;
+}
+.text4Figure .slogan{
+	font-size: 19px;
+    color: rgb(123, 123, 123);
+    text-align: left;
+    margin-bottom: 30px;	
+    line-height: 1;
+}
+.btn{
+	width: 143px;
+    height: 43px;
+    line-height: 43px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 10px;
+    background: rgb(73, 177, 128);
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.whitebg{
+	background-color: rgb(255,255,255);
+}
+.linkSolutionContainer{
+	background: white;
+}
+.linkSolution{
+	width: 1220px;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    margin-left: -610px;
+}
+.paraTitle{
+	padding-top: 38px;
+    padding-left: 18px;
+}
+.paraTitle .cn{
+	font-size: 20px;
+    color: rgb(77, 77, 77);
+    font-style: inherit;
+    font-weight: inherit;
+}
+.paraTitle .en{
+	font-size: 10px;
+    color: rgb(153, 153, 153);
+    margin-left: 15px;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.IPEquip{
+	display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+    font-size: 21px;
+    color: rgb(76, 76, 76);
+}
+.wifi{
+	margin-top: 22px;
+    width: 124px;
+    height: 124px;
+}
+.linkLine{
+	margin-top: 16px;
+    width: 8px;
+    height: 38px;
+}
+.connectWay{
+	position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+   /*clear: both;*/
+  width: 1220px;
+}
+.light{
+	position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.wifiModel{
+	position: absolute;
+    top: -10px;
+    left: 130px;
+}
+.socket{
+	position: absolute;
+    top: 68px;
+    left: 286px;
+}
+.linux{
+	position: absolute;
+    top: 30px;
+    left: 396px;
+}
+.camera{
+	position: absolute;
+    top: 18px;
+    left: 586px;
+}
+.android{
+	position: absolute;
+    top: 30px;
+    right: 396px;
+}
+.connectbox{
+	position: absolute;
+    top: 68px;
+    right: 286px;
+}
+.protocolconnection{
+	position: absolute;
+    top: -10px;
+    right: 130px;
+}
+.route{
+	position: absolute;
+    top: 25px;
+    right: 0px;
+}
+.smallPic img{
+	border-radius: 50%;
+}
+.light{
+	position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.smallPic{
+	width: 50px;
+}
+.wifiModel{
+	position: absolute;
+    top: -10px;
+    left: 130px;
+}
+.bigPic{
+	width: 104px;
+}
+p{
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.bigPic p{
+	font-size: 16px;
+    color: rgb(76, 76, 76);
+    margin-top: 14px;
+}
+.text-center{
+	text-align: center !important;
+}
+.waveContainer{
+	position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 166px;
+    overflow: hidden;
+}
+.wave{
+	position: absolute;
+    left: 50%;
+    margin-left: -1500px;
+    width: 3000px;
+    height: 166px;
+    background-image: url(../img/小米IoT开发者平台/bg_1@2x_9adb396.jpg);
+    background-repeat: repeat-x;
+    background-position: 300px 0px;
+}
+.connectWay img{
+	max-width: 100%;
+	height: auto;
+}
+.BLE_equip{
+	padding-top: 100px;
+    height: 500px;
+    background-color: rgb(230, 249, 255);
+    text-align: center;
+}
+.BLE_equip .BLETitle{
+	font-size: 21px;
+    color: rgb(76, 76, 76);
+    margin-bottom: 28px;
+}
+.BLEList{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.BLEItem{
+	width: 104px;
+    height: 104px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.BLEItem p{
+	width: 101%;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 5px 0px 0px;
+}
+.link{
+	width: 38px;
+    height: 8px;
+    margin: 0px 16px;
+}
+.linkProcesses{
+	height: 496px;
+}
+.infoSection{
+	width: 1220px;
+    margin: 0px auto;
+}
+.infoSectionList{
+	margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.infoSectionItem{
+	font-size: 16px;
+    color: rgb(76, 76, 76);
+    width: 124px;
+    height: 124px;
+}
+.infoSectionItem>img{
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+.linkPic{
+	width: 52px;
+    height: 4px;
+    margin: 0px 20px;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.lineline{
+	width: 100%;
+    height: 1px;
+    background-color: rgb(230, 230, 230);
+}
+.platformResources{
+	padding-bottom: 214px;
+}
+.platformResources .infoSectionItem:not(:last-child) {
+    margin-right: 92px;
+}
+.infoSectionPic{
+	width: 124px;
+    height: 124px;
+    margin-bottom: 15px;
+}
+.resourcesText{
+	line-height: 32px;
+}
+.grayBg{
+	background-color: #ededed;
+}
+.caseList{
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 38px;
+}
+.caseList img{
+	height: 432px;
+    width: 305px;
+}
+.partnerList{
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-bottom: 74px;
+}
+.partnerListItem{
+	transition: all .3s linear;
+    width: 304px;
+    height: 134px;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    margin: -1px;
+    cursor: pointer;
+}
+.partnerListItem:hover{
+	box-shadow: 1px 1px 10px gray;
+	transform: translate3d(0,-5px,0);
+}
+.partnerListItem img{
+	width: 183px;
+    height: 50px;
+    margin: 22px;
+}
+.partnerListItem a{
+	color: #676767;
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer{
+	width: 100%;
+    height: 190px;
+    background: #424242;
+    color: #eee;
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+}
+.footerInfo{
+	padding-top: 78px;
+}
+.footer ul{
+	display: inline-block;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.footer ul li{
+	display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #eee;
+}
+.footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+.footer ul li.no-border{
+	border-right: none;
+}
